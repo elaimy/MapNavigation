@@ -4,7 +4,13 @@ This iOS application allows users to input a starting and destination address an
 
 ### Prerequisites - Xcode 12 or later - CocoaPods (for managing dependencies)
 
-### Installation Steps 1. Clone the repository: `git clone https://github.com/yourusername/ios-navigation-app.git` 2. Navigate to the project directory: `cd ios-navigation-app` 3. Install dependencies using CocoaPods: `pod install` 4. Open the project in Xcode: `open ios-navigation-app.xcworkspace` 5. Add your Google Maps API key to the project: - Open `AppDelegate.swift`. - Replace `"YOUR_API_KEY"` with your actual API key in: `GMSServices.provideAPIKey("YOUR_API_KEY")` `GMSPlacesClient.provideAPIKey("YOUR_API_KEY")` 6. Build and run the project on a simulator or connected device.
+### Installation Steps 
+  1. Clone the repository: `git clone https://github.com/yourusername/ios-navigation-app.git` 
+  2. Navigate to the project directory: `cd ios-navigation-app` 
+  3. Install dependencies using CocoaPods: `pod install` 
+  4. Open the project in Xcode: `open ios-navigation-app.xcworkspace` 
+  5. Add your Google Maps API key to the project: - Open `AppDelegate.swift`. - Replace `"YOUR_API_KEY"` with your actual API key in: `GMSServices.provideAPIKey("YOUR_API_KEY")`     `GMSPlacesClient.provideAPIKey("YOUR_API_KEY")` 
+  6. Build and run the project on a simulator or connected device.
 
 ### Usage 1. Open the app on your device or simulator. 2. Enter a starting address in the first text field. 3. Enter a destination address in the second text field. 4. Tap the "Show Route" button. 5. The map will display the route between the two addresses, with markers indicating the start and destination points.
 
