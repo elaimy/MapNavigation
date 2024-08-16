@@ -1,0 +1,17 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.xcuserdatad
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# API Keys
+Secrets.xcconfig
+
+# Other
+.env
