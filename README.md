@@ -16,4 +16,4 @@ This iOS application allows users to input a starting and destination address an
 
 ### Acknowledgments - [Google Maps SDK for iOS](https://developers.google.com/maps/documentation/ios-sdk/overview) - For the map and geocoding services. - [IQKeyboardManagerSwift](https://github.com/hackiftekhar/IQKeyboardManager) - For managing the keyboard appearance in the app. - Special thanks to all the contributors of open-source libraries used in this project.
 
-### Created by [Ahmed Elelaimy]
+### Created by Ahmed Elelaimy
